@@ -1,0 +1,15 @@
+nav {
+  display: grid;
+  background: gray;
+  text-align: center;
+  grid-auto-rows: auto;
+  align-items: center;
+}
+
+nav li{
+  float: left;
+  padding: 15px;
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none
+}
