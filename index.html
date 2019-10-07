@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://digomes87.github.io/Design-your-own-Grid-based-Framework/css/grid.css">
-  <link rel="stylesheet" href="https://raw.githubusercontent.com/digomes87/Design-your-own-Grid-based-Framework/gh-pages/css/grid.css">
+  <!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/digomes87/Design-your-own-Grid-based-Framework/gh-pages/css/grid.css"> -->
   <link rel="stylesheet" href="css/style.css">
   <title>The Odin Project</title>
 </head>
@@ -15,32 +15,33 @@
 
   <div class="container">
 
-    <nav class="navbar">
-      <ul>
-        <li>Logo Odin</li>
-        <li>Cirriculum</li>
-        <li>Community</li>
-        <li>About</li>
-        <li>FAQ</li>
-        <li>Sing Up</li>
-        <li>Log In</li>
-      </ul>
-    </nav>
+    <div class="row">
+      <nav class="navbar grid-12">
+        <ul>
+          <li>Logo Odin</li>
+          <li>Cirriculum</li>
+          <li>Community</li>
+          <li>About</li>
+          <li>FAQ</li>
+          <li>Sing Up</li>
+          <li>Log In</li>
+        </ul>
+      </nav>
+    </div>
 
     <div class="row">
-      <div class="grid-sm-12">
+      <div class="grid-12">
         <p>Your Career in Web Developement Starts Here</p>
       </div>
-      <div>
-        <h2 class="grid-sm-12 text-center">Out full stach curriculum is free and supported by a passionate open source comunnity</h2>
+      <div class="grid-12">
+        <h2 class="text-center">Out full stach curriculum is free and supported by a passionate open source comunnity</h2>
+      </div>
+      <div class="grid-12 align-center">
+        <button class="button button-blue">view Full Curriculum</button>
       </div>
     </div>
 
-    <div class="row">
-      <button class="button button-blue">view Full Curriculum</button>
-    </div>
-
-    <div class="row">
+    <div class="row no-pad">
       <div class="grid-12 pic-cover big-picture" style="background-image: url('https://www.theodinproject.com/assets/home-isometric-60f02f572fa9ae583a22bf4d391e48f30cae707cbdb602e130bc3f12d73bac85.svg');"></div>
     </div>
 
@@ -72,72 +73,72 @@
         <div>Connect</div>
         <div>You’re not alone. Learn and get help from our friendly community of beginner and experienced developers.</div>
       </div>
-      </div">
+    </div>
 
-      <div class="row">
-        <div class="grid-sm-12">Learn everything you need to know to become a web developer</div>
-        <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/html.svg');">html+css</div>
-        <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/javascript.svg');">JavaScript</div>
-        <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/git.svg');">Git</div>
-        <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/database.svg');">DataBases</div>
-        <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/ruby.svg');">Ruby</div>
-        <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/ruby-on-rails.svg');">Ruby on Rails</div>
-        <div class="grid-sm-4 pic-contain pic-card"></div>
-        <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/hired.svg');">Getting Hired</div>
-        <div class="grid-sm-12">
-            <button class="button button-yellow">
-              Get started
-            </button>
-          </div>
+    <div class="row">
+      <div class="grid-sm-12">Learn everything you need to know to become a web developer</div>
+      <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/html.svg');">html+css</div>
+      <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/javascript.svg');">JavaScript</div>
+      <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/git.svg');">Git</div>
+      <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/database.svg');">DataBases</div>
+      <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/ruby.svg');">Ruby</div>
+      <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/ruby-on-rails.svg');">Ruby on Rails</div>
+      <div class="grid-sm-4 pic-contain pic-card"></div>
+      <div class="grid-sm-4 pic-contain pic-card" style="background-image: url('img/hired.svg');">Getting Hired</div>
+      <div class="grid-sm-12">
+        <button class="button button-yellow">
+          Get started
+        </button>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="grid-sm-12">Success Stories</div>
+      <div class="grid-12">
+        <p>Rob Pando
+          TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
+          me to figure it out on my own, by pointing me</p>
+        <p>Rob Pando
+          TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
+          me to figure it out on my own, by pointing me</p>
+        <p>Rob Pando
+          TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
+          me to figure it out on my own, by pointing me</p>
+        <p>Rob Pando
+          TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
+          me to figure it out on my own, by pointing me</p>
       </div>
 
-      <div class="row">
-        <div class="grid-sm-12">Success Stories</div>
-        <div class="grid-12">
-          <p>Rob Pando
-            TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
-            me to figure it out on my own, by pointing me</p>
-          <p>Rob Pando
-            TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
-            me to figure it out on my own, by pointing me</p>
-          <p>Rob Pando
-            TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
-            me to figure it out on my own, by pointing me</p>
-          <p>Rob Pando
-            TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
-            me to figure it out on my own, by pointing me</p>
+      <h3 class="text-center grid-sm-12">Read More success stories</h3>
+
+      <h1 class="text-center grid-sm-12">Start learning for free now!</h1>
+      <button class="button button-blue grid-2 grid-start-5">Sign Up</button>
+    </div>
+
+    <footer>
+
+      <row class="grid-1-4">
+        <ul>
+          <li>logo Odin</li>
+          <li>logo github</li>
+          <li>logo Discord</li>
+          <li>logo facebook</li>
+          <li>logo Twitter</li>
+        </ul>
+        <div>
+          <a href="">About</a>
+          <a href="">FAQ</a>
+          <a href="">Blog</a>
         </div>
 
-        <h3 class="text-center">Read More success stories</h3>
-
-        <h1 class="text-center">Start learning for free now!</h1>
-        <button class="button button-blue">Sign Up</button>
-      </div>
-
-      <footer>
-
-        <row class="grid-1-4">
-          <ul>
-            <li>logo Odin</li>
-            <li>logo github</li>
-            <li>logo Discord</li>
-            <li>logo facebook</li>
-            <li>logo Twitter</li>
-          </ul>
-          <div>
-            <a href="">About</a>
-            <a href="">FAQ</a>
-            <a href="">Blog</a>
-          </div>
-
-          <div>
-            <a href="">Success Stories</a>
-            <a href="">Contribuite</a>
-            <a href="">Terms of Use</a>
-          </div>
-        </row>
-      </footer>
-    </div>
+        <div>
+          <a href="">Success Stories</a>
+          <a href="">Contribuite</a>
+          <a href="">Terms of Use</a>
+        </div>
+      </row>
+    </footer>
+  </div>
 </body>
 
 </html>

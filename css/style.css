@@ -13,3 +13,7 @@ nav li{
   text-decoration: none;
   list-style-type: none
 }
+
+.align-center {
+  align-content: center;
+}
