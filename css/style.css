@@ -13,3 +13,7 @@ nav li{
   text-decoration: none;
   list-style-type: none
 }
+
+.big-picture {
+	min-height: 400px;
+}
