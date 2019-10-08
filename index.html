@@ -8,37 +8,39 @@
   <link rel="stylesheet" href="https://digomes87.github.io/Design-your-own-Grid-based-Framework/css/grid.css">
   <!-- <link rel="stylesheet" href="https://raw.githubusercontent.com/digomes87/Design-your-own-Grid-based-Framework/gh-pages/css/grid.css"> -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
   <title>The Odin Project</title>
 </head>
 
 <body>
   <div class="container">
-    <div class="row no-pad">
-      <nav class="navbar grid-12">
-        <ul>
-          <li>Logo Odin</li>
-          <li>Cirriculum</li>
-          <li>Community</li>
-          <li>About</li>
-          <li>FAQ</li>
-          <li>Sing Up</li>
-          <li>Log In</li>
-        </ul>
+    <div class="row">
+      <nav class="navbar nav-row grid-12">
+        <div class="ft-s-3 ft-w-4 logo-top pic-contain" style="background-image: url('img/odin-logo.png');"></div>
+        <div class="ft-s-3 ft-w-4 nav-item wide-space"></div>
+        <div class="ft-s-3 ft-w-4 nav-item">Cirriculum</div>
+        <div class="ft-s-3 ft-w-4 nav-item">Community</div>
+        <div class="ft-s-3 ft-w-4 nav-item">About</div>
+        <div class="ft-s-3 ft-w-4 nav-item">FAQ</div>
+        <div class="ft-s-3 ft-w-4 nav-item">|</div>
+        <div class="ft-s-3 ft-w-4 nav-item">Sing Up</div>
+        <div class="ft-s-3 ft-w-4 nav-item">Log In</div>
+        <div class="nav-menu"><i class="fas fa-bars ft-s-5"></i></div>
       </nav>
     </div>
 
-    <div class="row">
-      <div class="grid-sm-12 text-center ft-s-4 ft-w-4">
+    <div class="row spacing-3">
+      <div class="grid-sm-12 text-center ft-s-4 ft-w-4 spacing-1">
         Your Career in Web Developement Starts Here
       </div>
-      <div class="grid-12 text-center ft-s-3 ft-w-3">
+      <div class="grid-12 text-center ft-s-3 ft-w-3 spacing-2">
         Out full stach curriculum is free and supported by a passionate open source
         comunnity
       </div>
       <button class="button button-blue grid-sm-4 grid-start-5">View Full Curriculum</button>
     </div>
 
-    <div class="row no-pad">
+    <div class="row no-pad spacing-2">
       <div class="grid-12 pic-cover big-picture" style="background-image: url('https://www.theodinproject.com/assets/home-isometric-60f02f572fa9ae583a22bf4d391e48f30cae707cbdb602e130bc3f12d73bac85.svg');">
       </div>
     </div>
@@ -48,13 +50,13 @@
         <h1 class="text-center">How it works</h1>
       </div>
       <div class="grid-sm-12">
-        <p class="text-center ft-s-4">This is the website we wish we had when we were learning on our own. We scour the
+        <p class="text-center ft-s-4 spacing-1">This is the website we wish we had when we were learning on our own. We scour the
           internet looking for only the
           best resources to supplement your learning and present them in a logical order.</p>
       </div>
     </div>
 
-    <div class="row">
+    <div class="row spacing-2">
       <div class="grid-sm-4">
         <div class="icons-course pic-contain pic-card padding-top" style="background-image: url('img/learn.svg')"></div>
         <div class="text-center ft-s-4">learn</div>
@@ -77,8 +79,8 @@
       </div>
     </div>
 
-    <div class="row">
-      <div class="grid-sm-12 ft-s-4 ft-w-4 text-center">Learn everything you need to know to become a web developer</div>
+    <div class="row bg-gray">
+      <div class="grid-sm-12 ft-s-4 ft-w-4 text-center spacing-1">Learn everything you need to know to become a web developer</div>
       <div class="curriculum grid-sm-4">
         <div class="pic-contain pic-card" style="background-image: url('img/html.svg');"></div>
         <div class="ft-s-4 ft-w-4 text-center">html+css</div>
@@ -107,22 +109,21 @@
         <div class=" pic-contain pic-card" style="background-image: url('img/hired.svg');"></div>
         <div class="ft-s-4 ft-w-4 text-center">Getting Hired</div>
       </div>
-    </div>
-
-    <div class="row">
-      <button class="button button-yellow grid-sm-2 grid-start-6">
+      <button class="button button-yellow grid-sm-2 grid-start-6 spacing-2">
         <div class="ft-s-3 ft-w-3 text-center">Get started</div>
       </button>
     </div>
 
+
+
     <div class="row">
-      <div class="grid-sm-12 text-center ft-s-4">Success Stories</div>
+      <div class="grid-sm-12 text-center ft-s-4 ft-w-4 spacing-2">Success Stories</div>
       <div class="grid-md-6">
         <div class="row">
           <div class=" photo-circle pic-contain pic-photo grid-2" style="background-image: url('img/photo-1.jpg');"></div>
           <div class="grid-10">
-            <div>Rob Pando</div>
-            <div>TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
+            <div class="ft-s-3 ft-w-3">Rob Pando</div>
+            <div class="spacing-1">TOP was a perfect match for my learning style. Not walking me through an entire project but actually forcing
               me to figure it out on my own, by pointing me</div>
           </div>
         </div>
@@ -131,8 +132,8 @@
         <div class="row">
           <div class="photo-circle pic-contain pic-photo grid-2" style="background-image: url('img/photo-2.jpg');"></div>
           <div class="grid-10">
-            <div>Olivia</div>
-            <div>Before I found TOP, I was jumping from Coursera course to Coursera course without really any guidance or community. I wanted to get a real development job and not operating...</div>
+            <div class="ft-s-3 ft-w-3">Olivia</div>
+            <div class="spacing-1">Before I found TOP, I was jumping from Coursera course to Coursera course without really any guidance or community. I wanted to get a real development job and not operating...</div>
           </div>
         </div>
       </div>
@@ -140,8 +141,8 @@
         <div class="row">
           <div class="photo-circle pic-contain pic-photo grid-2" style="background-image: url('img/photo-3.jpg');"></div>
           <div class="grid-10">
-            <div>Cody Loyd</div>
-            <div>Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a year of working through the program, I was offered a job as a front...</div>
+            <div class="ft-s-3 ft-w-3">Cody Loyd</div>
+            <div class="spacing-1">Before I started the Odin Project I had literally ZERO programming experience. After almost exactly a year of working through the program, I was offered a job as a front...</div>
           </div>
         </div>
       </div>
@@ -149,38 +150,37 @@
         <div class="row">
           <div class="photo-circle pic-contain pic-photo grid-2" style="background-image: url('img/photo-4.jpg');"></div>
           <div class="grid-10">
-            <div>William Kennedy</div>
-            <div>The Odin Project changed my life and that is not an understatement. In November 2013, I made a commitment to myself to become a self-taught developer so I threw myself...</div>
+            <div class="ft-s-3 ft-w-3">William Kennedy</div>
+            <div class="spacing-1">The Odin Project changed my life and that is not an understatement. In November 2013, I made a commitment to myself to become a self-taught developer so I threw myself...</div>
           </div>
         </div>
       </div>
 
-      <h3 class="text-center grid-sm-12">Read More success stories</h3>
+      <div class="text-center grid-sm-12 ft-s-4 ft-w-4 spacing-2">Read More success stories</div>
 
       <h1 class="text-center grid-sm-12">Start learning for free now!</h1>
-      <button class="button button-blue grid-sm-2 grid-start-6">Sign Up</button>
+      <button class="button button-blue grid-sm-2 grid-start-6 ft-s-4 ft-w-4 spacing-2">Sign Up</button>
     </div>
 
     <footer>
 
-      <div class="row">
-        <div class="grid-sm-4">Logo Here</div>
+      <div class="row navbar nav-row">
+        <div class="logo-top pic-contain" style="background-image: url('img/odin-logo.png');"></div>
         <div class="grid-sm-4">
-          <a href="#">Odin</a>
-          <a href="#">Github</a>
-          <a href="#">Discord</a>
-          <a href="#">facebook</a>
-          <a href="#">Twitter</a>
+          <a href="#" class="ft-s-4"><i class="fab fa-github"></i></a>
+          <a href="#" class="ft-s-4"><i class="fab fa-discord"></i></a>
+          <a href="#" class="ft-s-4"><i class="fab fa-facebook-square"></i></a>
+          <a href="#" class="ft-s-4"><i class="fab fa-twitter-square"></i></a>
         </div>
         <div class="row">
-          <div class="grid-sm-6">
-            <a href="#">About</a>
-            <a href="#">FAQ</a>
-            <a href="#">Blog</a></div>
-          <div class="grid-sm-6">
-            <a href="#">Success Stories</a>
-            <a href="#">Contribuite</a>
-            <a href="#">Terms of Use</a></div>
+          <div class="grid-sm-6 navbar nav-col">
+            <a href="#" class="ft-s-2 ft-w-2">About</a>
+            <a href="#" class="ft-s-2 ft-w-2">FAQ</a>
+            <a href="#" class="ft-s-2 ft-w-2">Blog</a></div>
+          <div class="grid-sm-6 navbar nav-col text-center">
+            <a href="#" class="ft-s-2 ft-w-2">Success Stories</a>
+            <a href="#" class="ft-s-2 ft-w-2">Contribuite</a>
+            <a href="#" class="ft-s-2 ft-w-2">Terms of Use</a></div>
         </div>
       </div>
     </footer>

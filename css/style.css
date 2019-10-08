@@ -1,17 +1,6 @@
-nav {
-  display: grid;
-  background: gray;
-  text-align: center;
-  grid-auto-rows: auto;
-  align-items: center;
-}
-
-nav li{
-  float: left;
-  padding: 15px;
-  text-align: center;
-  text-decoration: none;
-  list-style-type: none
+.logo-top {
+  width: 300px;
+  height: 100px;
 }
 
 .align-center {
@@ -43,4 +32,8 @@ nav li{
   width: 254px;
   box-shadow:  0 7px 16px 0 rgba(0, 0, 0, 0.10);
   background: #fff;
+}
+
+.bg-gray {
+  background-color: #e6e6e6;
 }
