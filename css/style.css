@@ -43,6 +43,19 @@
   color: #cc9543;
 }
 
+.text-color {
+  color: #cc9543;
+}
+
+.text-color-2 {
+  color: #c2bbbb;
+  font-size: 1.225rem;
+}
+
+.text-justify {
+  text-align: start
+}
+
 .grid-sm-6 a {
   color: #cc9543;
   text-decoration: none;
