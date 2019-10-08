@@ -23,3 +23,24 @@ nav li{
   height: 50px;
   border-radius: 50%;
 }
+
+.icons-course {
+  height: 150px;
+  margin: 0 auto 15px;
+  padding: 25px;
+  width: 270px;
+  max-width: 270px;
+}
+
+.curriculum {
+  display: flex;
+  flex-direction: column;
+  height: 256px;
+  margin: 0 auto 15px;
+  max-width: 254px;
+  padding: 23px 46px 25px;
+  text-align: center;
+  width: 254px;
+  box-shadow:  0 7px 16px 0 rgba(0, 0, 0, 0.10);
+  background: #fff;
+}
